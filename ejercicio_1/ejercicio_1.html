@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .large-box {
+            background-color: #6aa84fff;
+            border: 4px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50vw;
+            height: 50vw;
+            max-width: 50%;
+            max-height: 50%;
+            position: relative;
+        }
+
+        .small-box {
+            background-color: #3d85c6ff;
+            border: 2px solid black;
+            width: 50%;
+            height: 50%;
+        }
+
+        .text {
+            position: absolute;
+            bottom: 8%;
+            width: 100%;
+            text-align: center;
+            font-size: calc(1vw + 1vh + 1vmin);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <title>CSS Styling</title>
+</head>
+<body>
+    <div class="large-box">
+        <div class="small-box"></div>
+        <div class="text">CSS Styling Is Fun?</div>
+    </div>
+</body>
+</html>
